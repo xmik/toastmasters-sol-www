@@ -492,9 +492,9 @@
 					<h3>Meeting venue</h3>
 
 					<ul class="list">
-						<li><i class="fa fa-university"></i>University of Lodz</li>
-						<li>Faculty of Economics and Sociology</li>
-						<li><i class="fa fa-map-marker"></i>ul. Rewolucji 1905 r. 39, <strong>room F012</strong></li>
+						<li><i class="fa fa-university"></i><a href="https://www.facebook.com/CKFabryka/">Centrum Kreatywności Fabryka</a></li>
+						<li><i class="fa fa-map-marker"></i>Łódź</li>
+						<li><i class="fa fa-map-marker"></i>ul. Księdza Biskupa Wincentego Tymienieckiego 22G</li>
 						<li><i class="fa fa-phone"></i>(+48) 534-851-555</li>
 						<li><i class="fa fa-clock-o"></i>Every Tuesday</li>
 						<li><i class="fa fa-clock-o"></i>18:30 - 20:00</li>
@@ -541,11 +541,13 @@
 	<!--<![endif]-->
     <script>
 		function initMap() {
-		  var myLatLng = {lat: 51.774996, lng: 19.464433};
+		  // Center the map on a point to the West of our venue
+		  // so that the red-pushpin is not hidden below the Meeting Venue div
+		  var myLatLng = {lat: 51.754622, lng: 19.466562};
   
 		  // Multiple Markers
 		  var markers = [
-			  ['Meeting venue', { lat: 51.774996, lng: 19.464433 }]
+			  ['Meeting venue', { lat: 51.754622, lng: 19.476562 }]
 		  ];
   
 		  var iconBase = 'http://maps.google.com/mapfiles/kml/pushpin/';
@@ -558,7 +560,7 @@
   
 		  var features = [
 			{
-			  position: new google.maps.LatLng(51.774996, 19.464433),
+			  position: new google.maps.LatLng(51.754622, 19.476562),
 			  type: 'red',
 			  title: 'Meeting venue'
 			}]
