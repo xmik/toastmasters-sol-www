@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  server:
+    init: true
+    image: httpd:2.4.41-alpine
+    ports:
+      - 8000:80
+    volumes:
+      - $PWD:/usr/local/apache2/htdocs
