@@ -8,6 +8,8 @@ Run the container:
 docker-compose -f ./docker-compose.yaml up -d
 ```
 
+Visit: http://localhost:8000
+
 Destroy the container:
 ```
 docker-compose -f ./docker-compose.yaml down
