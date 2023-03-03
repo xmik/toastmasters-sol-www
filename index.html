@@ -781,7 +781,7 @@
 		  var map = new google.maps.Map(document.getElementById('map'), {
 			center: {
 				lat: myLatLng.lat,
-				lng: myLatLng.lng - 0.01
+				lng: myLatLng.lng - (window.matchMedia('(min-width: 768px)').matches ? 0.01 : 0)
 			},
 			scrollwheel: false,
 			zoom: 16
