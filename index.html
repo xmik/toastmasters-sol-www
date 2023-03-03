@@ -686,10 +686,10 @@
 					<h3>Miejsce spotkań / Meeting Venue</h3>
 
 					<ul class="list">
-						<li><i class="fa fa-university"></i><a href="https://www.facebook.com/CKFabryka/">Centrum Kreatywności Fabryka</a></li>
+						<li><i class="fa fa-university"></i><a href="https://cospot.pl/">CoSpot</a></li>
 						<li><i class="fa fa-map-marker"></i>Łódź</li>
-						<li><i class="fa fa-map-marker"></i>ul. Księdza Biskupa Wincentego Tymienieckiego 22G</li>
-						<li><i class="fa fa-phone"></i><a href="tel:+48517873227">(+48) 517-873-227</a></li>
+						<li><i class="fa fa-map-marker"></i>ul. Zachodnia 70</li>
+						<li><i class="fa fa-phone"></i><a href="tel:+48537743333">+48 537 743 333</a></li>
 						<li><i class="fa fa-clock-o"></i>Każdy wtorek / Every Tuesday</li>
 						<li><i class="fa fa-clock-o"></i>18:30 - 20:30</li>
 					</ul>
@@ -756,11 +756,11 @@
 		function initMap() {
 		  // Center the map on a point to the West of our venue
 		  // so that the red-pushpin is not hidden below the Meeting Venue div
-		  var myLatLng = {lat: 51.754622, lng: 19.466562};
+		  var myLatLng = {lat: 51.77336, lng: 19.45342};
 
 		  // Multiple Markers
 		  var markers = [
-			  ['Meeting venue', { lat: 51.754622, lng: 19.476562 }]
+			  ['Meeting venue', { lat: myLatLng.lat, lng: myLatLng.lng }]
 		  ];
 
 		  var iconBase = 'http://maps.google.com/mapfiles/kml/pushpin/';
@@ -773,7 +773,7 @@
 
 		  var features = [
 			{
-			  position: new google.maps.LatLng(51.754622, 19.476562),
+			  position: new google.maps.LatLng(myLatLng.lat, myLatLng.lng),
 			  type: 'red',
 			  title: 'Miejsce spotkań / Meeting venue'
 			}]
