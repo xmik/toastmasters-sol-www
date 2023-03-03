@@ -779,7 +779,10 @@
 			}]
 
 		  var map = new google.maps.Map(document.getElementById('map'), {
-			center: myLatLng,
+			center: {
+				lat: myLatLng.lat,
+				lng: myLatLng.lng - 0.01
+			},
 			scrollwheel: false,
 			zoom: 16
 		  });
