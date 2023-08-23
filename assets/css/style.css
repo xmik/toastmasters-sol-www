@@ -5702,6 +5702,9 @@ button[type="submit"] .loading {
 .speaker .about {
   padding: 0 15px;
 }
+.speaker .speaker-socials {
+  margin: 0.75em 0 0.5em 0;
+}
 .speaker .speaker-socials > li {
   padding: 0 10px;
   display: inline-block;
