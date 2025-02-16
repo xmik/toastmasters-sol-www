@@ -7211,3 +7211,29 @@ button[type="submit"] .loading {
     width: 100%;
   }
 }
+
+#sticky-event-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  z-index: 10000;
+  max-height: 44px;
+}
+
+#sticky-event-banner a {
+  display: block;
+  height: 44px;
+
+  padding: 10px 20px;
+  background-color: #c93a12;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header.fixed .header-wrapper {
+  top: 44px;
+}
+
