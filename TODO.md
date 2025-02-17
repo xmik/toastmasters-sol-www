@@ -1,7 +1,7 @@
 - [ ] Switch a collage on the top
   - https://drive.google.com/drive/folders/10ZV68BlDCPGlz5_zzQs8viUti1UpbOY2
 - [x] Change phone number
-- [ ] Fix pathways – info that there are 6 paths
+- [x] Fix pathways – info that there are 6 paths
 - [x] Fix numbers of meetings etc.
 - [ ] Remove photos with few people + remove titles from photos
 - [ ] Articles with text about public speaking
