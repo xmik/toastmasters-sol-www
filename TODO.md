@@ -10,3 +10,4 @@
   - https://miro.com/app/board/uXjVLlyVDQg=/
   - [ ] Article about public speaking
   - [ ] Add article about the club
+- [ ] Google Search Console
