@@ -11,3 +11,4 @@
   - [ ] Article about public speaking
   - [ ] Add article about the club
 - [ ] Google Search Console
+- [ ] Make counters simulate real behaviour (+2, +3)
