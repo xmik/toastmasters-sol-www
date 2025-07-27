@@ -5,10 +5,15 @@
 - [x] Fix numbers of meetings etc.
 - [ ] Remove photos with few people + remove titles from photos
 - [ ] Articles with text about public speaking
-- [ ] Can we embed Instagram feed on the website?
+- [x] Can we embed Instagram feed on the website?
 - Articles:
   - https://miro.com/app/board/uXjVLlyVDQg=/
   - [ ] Article about public speaking
   - [ ] Add article about the club
 - [ ] Google Search Console
 - [ ] Make counters simulate real behaviour (+2, +3)
+- [ ] Remove the meeting images section
+- [ ] Add link to LinkedIN profile
+- [ ] Add social media embeds
+  - [ ] Add Instagram profile embed
+  - [ ] Add something for LinkedIn
