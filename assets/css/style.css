@@ -7234,7 +7234,7 @@ button[type="submit"] .loading {
 }
 
 .header.fixed .header-wrapper {
-  top: 44px;
+  /* top: 44px; */
 }
 
 .pathways-grid {
