@@ -12,8 +12,8 @@
   - [ ] Add article about the club
 - [ ] Google Search Console
 - [ ] Make counters simulate real behaviour (+2, +3)
-- [ ] Remove the meeting images section
-- [ ] Add link to LinkedIN profile
+- [x] Remove the meeting images section
+- [x] Add link to LinkedIN profile
 - [ ] Add social media embeds
   - [ ] Add Instagram profile embed
   - [ ] Add something for LinkedIn
