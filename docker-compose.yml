@@ -1,4 +1,3 @@
-version: "2.2"
 services:
   server:
     init: true
