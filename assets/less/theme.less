@@ -22,6 +22,11 @@
 .bg5 {
     background-image: url("@{img-path}backgrounds/bg5.jpg");
 }
+
+.bg6 {
+    background-image: url("@{img-path}backgrounds/bg6.webp");
+}
+
 .bg1.overlay:before {
 	opacity: 0.9;
 }
@@ -48,6 +53,13 @@
 .hero-section {
     z-index: 1;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 0 !important;
 }
 
 .stat-section,
@@ -325,10 +337,6 @@
 }
 
 @media (max-width: @screen-xs-min ) {
-    .extra-heading {
-        font-size: @font-size-h3;
-    }
-
     .line-heading {
         white-space: normal;
 
@@ -355,5 +363,50 @@
     .signup-section .form .form-group {
         margin-bottom: 0;
         width: 100%;
+    }
+}
+
+.extra-heading {
+    text-shadow: 0 0 15px rgba(100, 13, 27, 0.8);
+}
+
+#sticky-event-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    text-align: center;
+    z-index: 10000;
+    max-height: 44px;
+
+    a {
+        display: block;
+        height: 44px;
+        
+        padding: 10px 20px;
+        background-color: #c93a12;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+.header.fixed .header-wrapper {
+    /*top: 44px;*/
+}
+
+.pathways-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }

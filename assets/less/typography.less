@@ -76,9 +76,40 @@ h6 {
     letter-spacing: 0.02em;
 }
 
+.text-sm-right {
+    @media (min-width: @screen-sm-min) {
+        text-align: right;
+    }
+}
+.text-sm-left {
+    @media (min-width: @screen-sm-min) {
+        text-align: left;
+    }
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.pr-4 {
+    padding-right: 4px;
+}
+
+.heading-block a {
+    text-decoration: underline;
+    color: @text-white;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
 .extra-heading {
     margin: 0 0 8px;
-    font-size: 132px;
+    font-size: 112px;
     text-transform: uppercase;
     letter-spacing: 0;
 }
@@ -229,13 +260,42 @@ span {
 
 /* Media queries */
 
+@media (max-width: 1200px) {
+    .extra-heading {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .extra-heading {
+        font-size: 9vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        margin-top: -89px;
+    }
+}
+
+@media (max-width: 400px) {
+    .extra-heading {
+        font-size: 9vw;
+    }
+
+    .heading-lower {
+        font-size: @font-size-small;
+
+        h6 {
+            font-size: @font-size-small;
+            margin-bottom: 4px;
+        }
+    }
+}
+
 @media (max-width: @screen-sm-max) {
     body {
         font-size: @font-size-small;
-    }
-
-    .extra-heading {
-        font-size: 110px;
     }
 
     h5.heading-alt,
@@ -271,10 +331,6 @@ span {
 
     .heading {
         font-size: @font-size-base * 0.8;
-    }
-
-    .extra-heading {
-        font-size: 80px;
     }
 
     .sub-title,

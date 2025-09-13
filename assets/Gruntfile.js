@@ -40,7 +40,8 @@ module.exports = function(grunt) {
             development: {
                 options: {
                     paths: ['less'],
-                    ieCompat: false
+                    ieCompat: false,
+                    sourceMap: true
                 },
                 files: {
                     'css/style.css': 'less/styles/style.less',
@@ -50,7 +51,8 @@ module.exports = function(grunt) {
             color: {
                 options: {
                     paths: ['less'],
-                    ieCompat: false
+                    ieCompat: false,
+                    sourceMap: true
                 },
                 files: {
                     'css/style-blue-color.css': 'less/styles/style-blue-color.less',

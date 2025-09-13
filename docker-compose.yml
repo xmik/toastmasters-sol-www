@@ -7,3 +7,9 @@ services:
       - 8000:80
     volumes:
       - $PWD:/usr/local/apache2/htdocs
+  assets:
+    image: node:16-alpine
+    working_dir: /app
+    volumes:
+      - ./assets:/app
+    command: sh ./run-grunt.sh
