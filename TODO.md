@@ -1,19 +1,18 @@
-- [ ] Switch a collage on the top
-  - https://drive.google.com/drive/folders/10ZV68BlDCPGlz5_zzQs8viUti1UpbOY2
+- [x] Switch a collage on the top
 - [x] Change phone number
 - [x] Fix pathways – info that there are 6 paths
 - [x] Fix numbers of meetings etc.
-- [ ] Remove photos with few people + remove titles from photos
-- [ ] Articles with text about public speaking
+- [x] Remove the meeting images section
+- [x] Add link to LinkedIN profile
+- [x] Add link to YouTube
 - [x] Can we embed Instagram feed on the website?
+- [ ] Make counters simulate real behaviour (+2, +3)
+- [ ] Articles with text about public speaking
 - Articles:
   - https://miro.com/app/board/uXjVLlyVDQg=/
   - [ ] Article about public speaking
   - [ ] Add article about the club
 - [ ] Google Search Console
-- [ ] Make counters simulate real behaviour (+2, +3)
-- [x] Remove the meeting images section
-- [x] Add link to LinkedIN profile
 - [ ] Add social media embeds
   - [ ] Add Instagram profile embed
   - [ ] Add something for LinkedIn
