@@ -16,3 +16,6 @@
 - [ ] Add social media embeds
   - [ ] Add Instagram profile embed
   - [ ] Add something for LinkedIn
+- [ ] Hall of Fame: Nowa sekcja na stronie z zebranymi wszystkimi nagrodami klubu oraz członków. 
+- [ ] nowy licznik - do następnego spotkania zostało X dni (czyli zawsze do wtorku o 18:30)
+- [ ] dodanie feedu z LinkedIn w sekcji social media
