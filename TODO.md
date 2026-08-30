@@ -13,6 +13,14 @@
   - [ ] Article about public speaking
   - [ ] Add article about the club
 - [ ] Google Search Console
+- [x] Move meeting venue to Biurowiec Textilimpex, ul. Traugutta 25 (banner, venue section, map pin)
+- [x] Add Textilimpex partner block with logo under the venue map
+- [x] Refresh counters (30+ / 500+ / 1000+ / 1000+)
+- [x] Facebook widget: replaced the Page Plugin with a plain card.
+      The Facebook JS SDK is swapped for a no-op stub by ad/privacy blockers, so the
+      widget was an empty box for those visitors, and Meta's Page Plugin no longer
+      renders a page feed at all (endless spinner, error 1357032 — reproducible on any
+      page, e.g. facebook.com/nasa). Nothing on our side can restore the feed.
 - [ ] Add social media embeds
   - [ ] Add Instagram profile embed
   - [ ] Add something for LinkedIn

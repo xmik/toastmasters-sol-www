@@ -1,0 +1,78 @@
+/* ----------------------------------------------------------------------------
+    Social embeds
+---------------------------------------------------------------------------- */
+
+
+// Stands in for the old Facebook Page Plugin. The plugin was dropped because
+// ad/privacy blockers replace the Facebook JS SDK with a no-op stub, and Meta's
+// plugin no longer renders a page feed even when the SDK does load. Plain
+// markup renders for everyone.
+@facebook-blue: #1877f2;
+@fb-card-icon-size: 74px;
+@fb-card-icon-ring: 5px;
+
+.fb-card {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: @white-alt;
+    border: 2px solid @gray-blue;
+    overflow: hidden;
+}
+
+.fb-card-cover img {
+    width: 100%;
+    display: block;
+}
+
+.fb-card-body {
+    padding: 0 30px 40px;
+}
+
+// Sits half over the cover, the way a page avatar does, with a ring in the
+// card's own background colour to punch it out of the photo behind it.
+.fb-card-icon {
+    .transform(~"translateY(-50%)");
+
+    margin-bottom: (22px - (@fb-card-icon-size / 2));
+    width: @fb-card-icon-size;
+    height: @fb-card-icon-size;
+    display: inline-block;
+    color: @text-white;
+    background-color: @facebook-blue;
+    border: @fb-card-icon-ring solid @white-alt;
+    border-radius: 50%;
+    font-size: 38px;
+    line-height: (@fb-card-icon-size - (2 * @fb-card-icon-ring));
+}
+
+.fb-card-name {
+    margin: 0 0 4px;
+}
+
+.fb-card-actions {
+    margin-top: 28px;
+
+    .btn {
+        margin: 6px 4px;
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: @screen-xs-max) {
+    // Below the sm breakpoint the two columns stack, so the card needs to keep
+    // itself off the "Facebook" heading that follows it.
+    .fb-card {
+        margin-bottom: 45px;
+    }
+
+    .fb-card-body {
+        padding: 0 20px 30px;
+    }
+
+    .fb-card-actions .btn {
+        margin: 10px 0;
+        display: block;
+        width: 100%;
+        min-width: 0;
+    }
+}
