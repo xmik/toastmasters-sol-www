@@ -1,0 +1,56 @@
+/* ----------------------------------------------------------------------------
+    Partners
+---------------------------------------------------------------------------- */
+
+
+.partner-section {
+    padding: 70px 0;
+}
+
+// The Textilimpex mark is white-on-transparent, so it needs a dark plate to sit on.
+.partner-logo {
+    padding: 34px 30px;
+    display: block;
+    background-color: @gray-darker;
+
+    img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 254px;
+    }
+}
+
+.partner-body {
+    .heading-alt {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 14px;
+    }
+
+    .partner-lead {
+        color: @text-gray-dark;
+        font-weight: @bold-weight;
+    }
+
+    .partner-alt {
+        &:extend(.text-alt);
+
+        font-size: @font-size-small;
+    }
+}
+
+@media (max-width: @screen-xs-max) {
+    .partner-section {
+        padding: 45px 0;
+    }
+
+    .partner-logo {
+        margin-bottom: 30px;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
